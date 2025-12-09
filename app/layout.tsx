@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   authors: [{ name: "Raman Subedi" }],
   creator: "Raman Subedi",
   publisher: "Raman Subedi",
-  metadataBase: new URL("https://ramansubedi.online"),
+  metadataBase: new URL("https://ramansubedi.com.np"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ramansubedi.online",
+    url: "https://ramansubedi.com.np",
     title: "Raman Subedi | AI & DevOps Engineer Portfolio",
     description: "Portfolio of Raman Subedi - Aspiring AI & DevOps Engineer specializing in machine learning and AI solutions.",
     siteName: "Raman Subedi Portfolio",

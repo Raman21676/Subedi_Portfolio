@@ -6,7 +6,7 @@ Personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
 This is my portfolio showcasing my work in AI, machine learning, and DevOps. I built it to present my projects and experience to potential employers and graduate programs.
 
-Live at: [ramansubedi.online](https://ramansubedi.online)
+Live at: [ramansubedi.com.np](https://ramansubedi.com.np)
 
 ## Tech Stack
 
