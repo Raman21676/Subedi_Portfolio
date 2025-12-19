@@ -6,18 +6,107 @@ import ResumeDownload from "@/components/ResumeDownload";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
+import type { Metadata } from "next";
+
+
+export const metadata: Metadata = {
+  title: 'Raman Subedi | AI Engineer & DevOps Specialist | Python Developer Nepal',
+  description: 'Raman Subedi - AI Engineer and DevOps specialist from Nepal. Expertise in Python, Machine Learning, Data Analytics, Docker, CI/CD, and Backend Development. BIT Graduate building scalable intelligent systems.',
+  keywords: [
+    'Raman Subedi',
+    'AI Engineer Nepal',
+    'AI Engineer',
+    'Artificial Intelligence',
+    'AI',
+    'AI Engineer',
+    'AI & ML',
+    'Python Developer',
+    'Python',
+    'pyhton',
+    'Python Developer',
+    'Machine Learning Engineer',
+    'Machine Learning',
+    'ML',
+    'Machine Learning Engineer',
+    'machine learning engineer',
+    'Best',
+    'Best Developer',
+    'Best AI Engineer',
+    'Best DevOps Engineer',
+    'best deveops engineer',
+    'best ai engineer',
+    'best developer',
+    'best ai engineer nepal',
+    'best devops engineer nepal',
+    'best developer nepal',
+    'best ai engineer nepal',
+    'best devops engineer nepal',
+    'best developer nepal',
+    'DevOps Engineer',
+    'Data Analytics',
+    'Data Science',
+    'Data Science Engineer',
+    'Backend Developer',
+    'Docker',
+    'CI/CD',
+    'Biratnagar Nepal',
+    'Artificial Intelligence',
+    'Scikit-learn',
+    'Jenkins',
+    'Neural Networks'
+  ],
+  authors: [{ name: 'Raman Subedi', url: 'https://www.ramansubedi.com' }],
+  creator: 'Raman Subedi',
+  publisher: 'Raman Subedi',
+  metadataBase: new URL('https://www.ramansubedi.com'),
+  alternates: {
+    canonical: 'https://www.ramansubedi.com',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.ramansubedi.com',
+    title: 'Raman Subedi | AI & DevOps Engineer',
+    description: 'AI Engineer and DevOps specialist from Nepal with expertise in Python, Machine Learning, Docker, and scalable systems.',
+    siteName: 'Raman Subedi Portfolio',
+    images: [
+      {
+        url: '/og-image.jpg', // You'll add this image later
+        width: 1200,
+        height: 630,
+        alt: 'Raman Subedi - AI & DevOps Engineer',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Raman Subedi | AI & DevOps Engineer',
+    description: 'AI Engineer from Nepal specializing in Python, Machine Learning, and DevOps',
+    images: ['/og-image.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+};
+
 export default function Home() {
   return (
-    <>
+    <main className="min-h-screen">
       <Navigation />
-      <main>
-        <Hero />
-        <About />
-        <Projects />
-        <ResumeDownload />
-        <Contact />
-      </main>
+      <Hero />
+      <About />
+      <Projects />
+      <ResumeDownload />
+      <Contact />
       <Footer />
-    </>
+    </main>
   );
 }

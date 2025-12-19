@@ -1,93 +1,102 @@
-# Raman Subedi - Portfolio
+# Raman Subedi - AI & DevOps Engineer Portfolio
 
-Personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
+Personal portfolio website showcasing expertise in **Artificial Intelligence**, **Machine Learning**, **Python Development**, and **DevOps**.
 
-## About
+## About Me
 
-This is my portfolio showcasing my work in AI, machine learning, and DevOps. I built it to present my projects and experience to potential employers and graduate programs.
+I'm **Raman Subedi**, a BIT graduate from Tribhuvan University, Nepal, specializing in:
 
-Live at: [ramansubedi.com.np](https://ramansubedi.com.np)
+- **Artificial Intelligence & Machine Learning**
+- **Python Development** (Pandas, NumPy, Scikit-learn)
+- **DevOps & CI/CD** (Docker, Jenkins, Git)
+- **Data Engineering & Analytics**
+- **Backend Development**
+- **Linux System Administration**
 
 ## Tech Stack
 
-- Next.js 14 (App Router)
-- TypeScript
-- Tailwind CSS
-- Framer Motion for animations
-- Lucide React for icons
+### Languages
 
-## Setup
+- Python, C++, SQL, Bash Scripting, TypeScript
 
-You'll need Node.js installed. Then:
+### AI & Data Science
 
-```bash
-git clone https://github.com/Raman21676/Subedi_Protfolio.git
-cd Subedi_Protfolio
-npm install
-npm run dev
-```
+- Pandas, NumPy, Scikit-learn, Neural Networks, Data Preprocessing
 
-The site will be available at `http://localhost:3000`.
+### DevOps Tools
 
-## Building for Production
+- Docker, Jenkins, Git, CI/CD Pipelines, Linux
 
-```bash
-npm run build
-npm run start
-```
+### Web Technologies
 
-## Project Structure
+- Next.js, React, Tailwind CSS, HTML5, CSS3
 
-```
-app/
-  layout.tsx          # SEO and metadata
-  page.tsx            # Main landing page
-  globals.css         # Global styles
+## Key Projects
 
-components/
-  Navigation.tsx      # Top navigation
-  Hero.tsx           # Landing section
-  About.tsx          # Education and experience
-  Projects.tsx       # Project showcase
-  ResumeDownload.tsx # Resume download CTA
-  Contact.tsx        # Contact form
-  Footer.tsx         # Footer
+### AI Model Implementation
 
-public/
-  profile.png        # Profile photo
-  Raman_Subedi_Resume .pdf
-```
+- Built machine learning models using Python and Scikit-learn
+- Data cleaning, feature engineering, and algorithm optimization
+- Explored neural network foundations and mathematical underpinnings
 
-## Customizing
+### DevOps Pipeline Simulation
 
-If you want to use this as a template:
+- Configured automated deployment workflows with Git and Docker
+- Set up CI/CD pipelines for automated testing and builds
+- Managed Linux-based server environments for production deployment
 
-- Update project info in `components/Projects.tsx`
-- Change personal details in `components/About.tsx`
-- Update social links in `components/Contact.tsx`
-- Modify colors in `tailwind.config.ts`
+## Live Website
 
-## Deployment
-
-I recommend Vercel for deployment since it's built for Next.js:
-
-```bash
-npm i -g vercel
-vercel
-```
-
-Netlify also works:
-
-```bash
-npm i -g netlify-cli
-netlify deploy --prod
-```
+**Visit:** [www.ramansubedi.com](https://www.ramansubedi.com)
 
 ## Contact
 
-- Email: ramansubedi0309@gmail.com
-- LinkedIn: [linkedin.com/in/raman-subedi-55b13b27b](https://www.linkedin.com/in/raman-subedi-55b13b27b/)
-- GitHub: [github.com/Raman21676](https://github.com/Raman21676)
+- **Email:** whoiskalikali@gmail.com
+- **LinkedIn:** [raman-subedi-55b13b27b](https://www.linkedin.com/in/raman-subedi-55b13b27b)
+- **GitHub:** [Raman21676](https://github.com/Raman21676)
+- **Website:** [ramansubedi.com](https://www.ramansubedi.com)
+- **Location:** Biratnagar, Koshi, Nepal
+- **Phone:** +977 9824370085
+
+## Languages
+
+- **Nepali** - Native
+- **German** - Fluent
+- **English** - Fluent
+- **Hindi** - Fluent
+
+## Education
+
+**Bachelor in Information Technology (BIT)**  
+Tribhuvan University, Nepal (2019-2024)
+
+## Experience
+
+**Technology Support Intern**  
+Numa Digital Farm (NDF), Biratnagar (2023-2024)
+
+- Backend digital operations and data handling optimization
+- Platform stability maintenance and agile workflows
+- Platform testing, bug identification, and performance assurance
+
+---
+
+**Currently seeking AI Engineering and DevOps opportunities in Europe**
+
+## Getting Started
+
+This portfolio is built with Next.js, React, and Tailwind CSS.
+
+```bash
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+```
 
 ## License
 
