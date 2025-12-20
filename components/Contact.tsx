@@ -242,7 +242,7 @@ export default function Contact() {
                 <p>📍 Kathmandu, Nepal</p>
                 <p>🎓 BIT Graduate, Tribhuvan University</p>
                 <p>💼 Senior AI/ ML & DevOps Engineer</p>
-                <p>🌐 ramansubedi.com.np</p>
+                <p>🌐 www.ramansubedi.com</p>
               </div>
             </div>
           </motion.div>
