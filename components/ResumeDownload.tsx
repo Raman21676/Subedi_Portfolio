@@ -34,7 +34,7 @@ export default function ResumeDownload() {
             </p>
             
             <a
-              href="/Raman_Subedi_Resume .pdf"
+              href="/RamanSubedi_CV.pdf"
               download
               className="inline-flex items-center gap-3 px-10 py-5 rounded-full bg-gradient-to-r from-primary-600 to-accent-600 hover:from-primary-500 hover:to-accent-500 transition-all duration-300 font-bold text-xl glow-border animate-glow group"
             >

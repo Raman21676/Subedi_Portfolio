@@ -1,10 +1,12 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
-import About from "@/components/About";
-import Projects from "@/components/Projects";
-import ResumeDownload from "@/components/ResumeDownload";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+import dynamic from 'next/dynamic';
+
+const About = dynamic(() => import('@/components/About'));
+const Projects = dynamic(() => import('@/components/Projects'));
+const ResumeDownload = dynamic(() => import('@/components/ResumeDownload'));
+const Contact = dynamic(() => import('@/components/Contact'));
+const Footer = dynamic(() => import('@/components/Footer'));
 
 import type { Metadata } from "next";
 
