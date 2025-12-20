@@ -29,7 +29,7 @@ export default function Navigation() {
         </div>
 
         <a
-          href="/Raman_Subedi_Resume .pdf"
+          href="/Raman_Subedi_Resume.pdf"
           download
           className="px-6 py-2 rounded-full bg-gradient-to-r from-primary-600 to-accent-600 hover:from-primary-500 hover:to-accent-500 transition-all duration-300 font-medium"
         >
