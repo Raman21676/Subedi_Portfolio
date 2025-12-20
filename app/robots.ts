@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://www.ramansubedi.com.np/sitemap.xml',
+    sitemap: 'https://www.ramansubedi.com/sitemap.xml',
   }
 }

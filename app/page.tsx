@@ -57,17 +57,17 @@ export const metadata: Metadata = {
     'Jenkins',
     'Neural Networks'
   ],
-  authors: [{ name: 'Raman Subedi', url: 'https://www.ramansubedi.com.np' }],
+  authors: [{ name: 'Raman Subedi', url: 'https://www.ramansubedi.com' }],
   creator: 'Raman Subedi',
   publisher: 'Raman Subedi',
-  metadataBase: new URL('https://www.ramansubedi.com.np'),
+  metadataBase: new URL('https://www.ramansubedi.com'),
   alternates: {
-    canonical: 'https://www.ramansubedi.com.np',
+    canonical: 'https://www.ramansubedi.com',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.ramansubedi.com.np',
+    url: 'https://www.ramansubedi.com',
     title: 'Raman Subedi | AI & DevOps Engineer',
     description: 'AI Engineer and DevOps specialist from Nepal with expertise in Python, Machine Learning, Docker, and scalable systems.',
     siteName: 'Raman Subedi Portfolio',
