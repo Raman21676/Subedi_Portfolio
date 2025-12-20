@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: 'Raman Subedi | AI Engineer & DevOps Specialist | Python Developer Nepal',
+  title: 'Raman Subedi | Senior AI/ ML & DevOps Engineer | Python Developer Nepal',
   description: 'Raman Subedi - AI Engineer and DevOps specialist from Nepal. Expertise in Python, Machine Learning, Data Analytics, Docker, CI/CD, and Backend Development. BIT Graduate building scalable intelligent systems.',
   keywords: [
     'Raman Subedi',
@@ -51,23 +51,23 @@ export const metadata: Metadata = {
     'Backend Developer',
     'Docker',
     'CI/CD',
-    'Biratnagar Nepal',
+    'Kathmandu Nepal',
     'Artificial Intelligence',
     'Scikit-learn',
     'Jenkins',
     'Neural Networks'
   ],
-  authors: [{ name: 'Raman Subedi', url: 'https://www.ramansubedi.com' }],
+  authors: [{ name: 'Raman Subedi', url: 'https://www.ramansubedi.com.np' }],
   creator: 'Raman Subedi',
   publisher: 'Raman Subedi',
-  metadataBase: new URL('https://www.ramansubedi.com'),
+  metadataBase: new URL('https://www.ramansubedi.com.np'),
   alternates: {
-    canonical: 'https://www.ramansubedi.com',
+    canonical: 'https://www.ramansubedi.com.np',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.ramansubedi.com',
+    url: 'https://www.ramansubedi.com.np',
     title: 'Raman Subedi | AI & DevOps Engineer',
     description: 'AI Engineer and DevOps specialist from Nepal with expertise in Python, Machine Learning, Docker, and scalable systems.',
     siteName: 'Raman Subedi Portfolio',

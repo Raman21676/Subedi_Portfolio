@@ -66,7 +66,7 @@ export default function Contact() {
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "https://www.linkedin.com/in/raman-subedi-55b13b27b/",
+      href: "https://www.linkedin.com/in/raman-subedi-ai-engineer",
       color: "from-blue-500 to-cyan-500",
     },
     {
@@ -239,9 +239,9 @@ export default function Contact() {
             <div className="glass glow-border rounded-3xl p-8">
               <h3 className="text-xl font-bold mb-4">Quick Info</h3>
               <div className="space-y-3 text-foreground/70">
-                <p>📍 Biratnagar, Nepal</p>
+                <p>📍 Kathmandu, Nepal</p>
                 <p>🎓 BIT Graduate, Tribhuvan University</p>
-                <p>💼 Aspiring AI & DevOps Engineer</p>
+                <p>💼 Senior AI/ ML & DevOps Engineer</p>
                 <p>🌐 ramansubedi.com.np</p>
               </div>
             </div>
