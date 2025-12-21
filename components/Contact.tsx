@@ -47,9 +47,17 @@ export default function Contact() {
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
       console.error("Error sending email:", error);
+      // Log specific error details if available since the user cannot see server logs easily
+      if (error instanceof Error) {
+        console.error("Error name:", error.name);
+        console.error("Error message:", error.message);
+      } else {
+        console.error("Full error object:", JSON.stringify(error));
+      }
+
       setSubmitStatus({
         type: "error",
-        message: "Oops! Something went wrong. Please try again or contact me directly via email.",
+        message: "Oops! Something went wrong. Please try again or contact me directly via email (ai@ramansubedi.com).",
       });
     } finally {
       setIsSubmitting(false);
