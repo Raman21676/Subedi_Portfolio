@@ -23,7 +23,7 @@ export default function Footer() {
             Next.js • TypeScript • Tailwind CSS • Framer Motion
           </p>
           <p className="text-foreground/40 text-xs">
-            © {new Date().getFullYear()} ramansubedi.com.np • All rights reserved
+            © {new Date().getFullYear()} ramansubedi.com • All rights reserved
           </p>
         </motion.div>
       </div>
