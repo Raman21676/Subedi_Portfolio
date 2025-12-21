@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://www.ramansubedi.com',
-    title: 'Raman Subedi | AI & DevOps Engineer',
+    title: 'Raman Subedi | AI/ ML & DevOps Engineer',
     description: 'AI Engineer and DevOps specialist from Nepal with expertise in Python, Machine Learning, Docker, and scalable systems.',
     siteName: 'Raman Subedi Portfolio',
     images: [
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Raman Subedi - AI & DevOps Engineer',
+        alt: 'Raman Subedi - AI/ ML & DevOps Engineer',
       },
     ],
   },
@@ -124,12 +124,12 @@ export default function RootLayout({
       addressRegion: 'Koshi',
       addressCountry: 'Nepal',
     },
-    email: 'whoiskalikali@gmail.com',
+    email: 'ai@ramansubedi.com',
     telephone: '+977-9824370085',
     sameAs: [
       'https://www.linkedin.com/in/raman-subedi-55b13b27b',
       'https://github.com/Raman21676',
-      'https://www.ramansubedi.com.np',
+      'https://www.ramansubedi.com',
     ],
     knowsAbout: [
       'Artificial Intelligence',
