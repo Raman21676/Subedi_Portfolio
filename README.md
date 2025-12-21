@@ -1,4 +1,4 @@
-# Raman Subedi - AI & DevOps Engineer Portfolio
+# Raman Subedi - AI/ML & DevOps Engineer Portfolio
 
 Personal portfolio website showcasing expertise in **Artificial Intelligence**, **Machine Learning**, **Python Development**, and **DevOps**.
 
@@ -51,7 +51,7 @@ I'm **Raman Subedi**, a BIT graduate from Tribhuvan University, Nepal, specializ
 
 ## Contact
 
-- **Email:** whoiskalikali@gmail.com
+- **Email:** ai@ramansubedi.com
 - **LinkedIn:** [raman-subedi-55b13b27b](https://www.linkedin.com/in/raman-subedi-55b13b27b)
 - **GitHub:** [Raman21676](https://github.com/Raman21676)
 - **Website:** [ramansubedi.com](https://www.ramansubedi.com)

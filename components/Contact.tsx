@@ -23,10 +23,10 @@ export default function Contact() {
     setSubmitStatus({ type: null, message: "" });
 
     try {
-      // EmailJS configuration - replace these with your actual values
-      const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "YOUR_SERVICE_ID";
-      const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "YOUR_TEMPLATE_ID";
-      const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "YOUR_PUBLIC_KEY";
+      // EmailJS configuration
+      const serviceId = "Service_raman_ai";
+      const templateId = "template_8xonf4r";
+      const publicKey = "omj8UgzABxYqoO30S";
 
       await emailjs.send(
         serviceId,
@@ -35,7 +35,7 @@ export default function Contact() {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_email: "ramansubedi0309@gmail.com",
+          to_email: "ai@ramansubedi.com",
         },
         publicKey
       );
@@ -60,7 +60,7 @@ export default function Contact() {
     {
       name: "Email",
       icon: Mail,
-      href: "mailto:ramansubedi0309@gmail.com",
+      href: "mailto:ai@ramansubedi.com",
       color: "from-red-500 to-orange-500",
     },
     {
@@ -243,6 +243,8 @@ export default function Contact() {
                 <p>🎓 BIT Graduate, Tribhuvan University</p>
                 <p>💼 Senior AI/ ML & DevOps Engineer</p>
                 <p>🌐 www.ramansubedi.com</p>
+                <p>📧 ai@gmail.com</p>
+                <p>📞 +977 9824370085</p>
               </div>
             </div>
           </motion.div>
