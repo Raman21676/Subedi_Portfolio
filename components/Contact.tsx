@@ -251,7 +251,7 @@ export default function Contact() {
                 <p>🎓 BIT Graduate, Tribhuvan University</p>
                 <p>💼 Senior AI/ ML & DevOps Engineer</p>
                 <p>🌐 www.ramansubedi.com</p>
-                <p>📧 ai@gmail.com</p>
+                <p>📧 ai@ramansubedi.com</p>
                 <p>📞 +977 9824370085</p>
               </div>
             </div>
