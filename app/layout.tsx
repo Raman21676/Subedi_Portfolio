@@ -90,6 +90,9 @@ export const metadata: Metadata = {
   verification: {
     google: 'your-google-verification-code', // You'll add this later from Google Search Console
   },
+  icons: {
+    icon: '/Raman-Subedi-AI-Engineer.jpg',
+  },
 };
 
 export default function RootLayout({
